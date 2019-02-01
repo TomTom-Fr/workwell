@@ -19,6 +19,15 @@ const i18n = {
         "remove-photo": "Supprimer",
         "replace-photo": "Remplacer",
         "choose-image-error": "Une erreur est survenue ! Veuillez choisir une image à nouveau."
+    },
+    ja: {
+        "cancel-search-input": "キャンセル",
+        "required": "必須",
+        "add-photo": "画像を追加",
+        "add-another-photo": "続けて画像を追加",
+        "remove-photo": "削除",
+        "replace-photo": "置き換え",
+        "choose-image-error": "エラーが発生しました。もう一度画像を選択して見てください。"
     }
 };
 
