@@ -6,3 +6,4 @@ requirements.txt
 templates/
 server.py
 live-coding/distribution/*.bundle.js
+version.py
