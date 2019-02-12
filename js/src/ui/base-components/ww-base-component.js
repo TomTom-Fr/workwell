@@ -75,6 +75,11 @@ export default class BaseComponent {
         return this.el.id;
     }
 
+    setAttribute(attribute, value) {
+        this.el.setAttribute(attribute, value);
+        return this;
+    }
+
     css(attribute, value) {
         this.el.style[attribute] = value;
         return this;

@@ -65,7 +65,7 @@ export function convertEvent(event, fn, wwElement) {
                 }
             }
 
-            wwElement.addEventListener(event, function () {
+            wwElement.el.addEventListener(event, function () {
                 /*if (fnArguments.length > size) {
                  // it's already been unshifted
                  fnArguments[0] = this.getInputValue();
@@ -79,7 +79,7 @@ export function convertEvent(event, fn, wwElement) {
                     throw new TypeError(fnName + " is not a function");
             });
         } else {
-            wwElement.addEventListener(event, function () {
+            wwElement.el.addEventListener(event, function () {
                 if (window[fnName])
                     window[fnName]();
                 else
@@ -88,7 +88,7 @@ export function convertEvent(event, fn, wwElement) {
         }
     } else {
         let fnName = str[0];
-        wwElement.addEventListener(event, function () {
+        wwElement.el.addEventListener(event, function () {
             throw new TypeError(fnName + " is not a function");
         });
     }
