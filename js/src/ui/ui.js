@@ -166,12 +166,10 @@ export function format() {
         let el = buttonElements[i];
         let newEl = createButton(buttonElements[i].textContent.trim());
 
-        if (el.hasAttribute("id")) {
-            newEl.setId(el.getAttribute("id"));
-        }
-
-        if (el.hasAttribute("onclick")) {
-            convertEvent("click", el.getAttribute("onclick"), newEl);
+        for (let attr of el.attributes) {
+            if (attr.nodeName !== "class") {
+                newEl.setAttribute(attr.nodeName, attr.nodeValue);
+            }
         }
 
         el.parentNode.replaceChild(newEl.toHTMLElement(), el);
