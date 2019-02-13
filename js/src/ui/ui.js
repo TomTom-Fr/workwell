@@ -152,10 +152,33 @@ export function format() {
         }
     }
 
+    let lists = document.getElementsByClassName("ww-list");
+    for (let i = 0; i < lists.length; i++) {
+        let el = lists[i];
+
+        let newEl = createList();
+
+        for (let attr of el.attributes) {
+            if (attr.nodeName !== "class") {
+                newEl.setAttribute(attr.nodeName, attr.nodeValue);
+            }
+        }
+
+        let tab = [];
+        for (let j = 0; j < el.children.length; j++) {
+            tab.push(el.children[j]);
+        }
+
+        for (let t of tab) {
+            newEl.add(t);
+        }
+
+        el.parentNode.replaceChild(newEl.toHTMLElement(), el);
+    }
+
     let listItems = document.getElementsByClassName("ww-list-item");
     for (let i = 0; i < listItems.length; i++) {
         let el = listItems[i];
-
         if (hasClass(el, "ww-list-item--tappable")) {
             ww_(el).setTappable(true);
         }
@@ -170,6 +193,10 @@ export function format() {
             if (attr.nodeName !== "class") {
                 newEl.setAttribute(attr.nodeName, attr.nodeValue);
             }
+        }
+
+        if (el.hasAttribute("data-type")) {
+            newEl.setType(el.getAttribute("data-type"));
         }
 
         el.parentNode.replaceChild(newEl.toHTMLElement(), el);
