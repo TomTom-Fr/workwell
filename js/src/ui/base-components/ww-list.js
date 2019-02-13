@@ -54,7 +54,7 @@ export default class List extends BaseComponent {
         let index = -1;
         let el = null;
         for (let i = 0; i < this.el.items.length; i++) {
-            if (this.el.items[i].getId() === listItemId) {
+            if (this.el.items[i].id === listItemId) {
                 index = i;
                 el = this.el.items[i];
                 break;
