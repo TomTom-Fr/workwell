@@ -20,7 +20,7 @@ import BannerSubtitle from "./base-components/ww-banner-subtitle";
 import Picker from "./base-components/ww-picker";
 import ImageGallery from "./base-components/ww-image-gallery";
 import {getMobileOperatingSystem} from "../bridge/utils";
-import {hasClass, addClass, convertEvent} from "./ui-utils";
+import {hasClass, addClass} from "./ui-utils";
 import ww_ from "./ww_";
 import * as i18n from "./i18n";
 

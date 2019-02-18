@@ -77,7 +77,12 @@ export default class Picker extends BaseComponent {
             this.el.pickerSelect.dispatchEvent(e);
         });
 
+        this.el.onChangeFunction = () => {
+
+        };
+
         this.el.pickerSelect.addEventListener("change", () => {
+            this.el.onChangeFunction(this.el.options[this.el.pickerSelect.value]);
             this.setSelectedIndex(this.el.pickerSelect.value);
         });
 
@@ -169,6 +174,11 @@ export default class Picker extends BaseComponent {
             this.setAssistiveText("*" + get(getLocale(), "required"));
         }
         this.el.required = required;
+        return this;
+    }
+
+    onChange(fn) {
+        this.el.onChangeFunction = fn;
         return this;
     }
 }
