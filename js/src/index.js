@@ -220,6 +220,17 @@ export function openEventsList() {
     sendFromJS(JSON.stringify(jsonObj));
 }
 
+export function openProfile(obj) {
+    if (!obj || (obj && !obj.userServiceToken)) {
+        throw new Error("You need to set the userServiceToken to call this method !");
+    }
+    obj.data = {
+        userServiceToken: obj.userServiceToken
+    };
+    const jsonObj = createJSONFrom("ui", "userProfile", obj);
+    sendFromJS(JSON.stringify(jsonObj));
+}
+
 export function getUserAccessToken(obj) {
     if (obj.success) {
         let fn = obj.success;
