@@ -231,13 +231,12 @@ export function openProfile(obj) {
     sendFromJS(JSON.stringify(jsonObj));
 }
 
-export function openImage(url) {
-    if (!url) {
+export function openImage(obj) {
+    if (!obj || (obj && !obj.url)) {
         throw new Error("You need to set an image url to call this method !");
     }
-    let obj = {};
     obj.data = {
-        imageUrl: url
+        imageUrl: obj.url
     };
     const jsonObj = createJSONFrom("ui", "showImage", obj);
     sendFromJS(JSON.stringify(jsonObj));

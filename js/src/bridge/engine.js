@@ -7,10 +7,6 @@ export function createJSONFrom(action, target, obj) {
 
     const serviceToken = getServiceToken();
 
-    if (!serviceToken || getServiceToken().tokenId.trim() === "") {
-        throw new Error("You need to set the service token before using any methods from the SDK !");
-    }
-
     let json = {};
     json.action = action;
     json.target = target;
@@ -56,8 +52,8 @@ export function createJSONFrom(action, target, obj) {
                     if (obj.error) {
                         window[errorCallback] = obj.error;
                     } else {
-                        window[errorCallback] = function () {
-
+                        window[errorCallback] = function (err) {
+                            console.error(err);
                         };
                     }
                 }
