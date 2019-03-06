@@ -17,7 +17,7 @@ Workwell is a front-end framework to communicate between a web-application and t
 Put your service between the hands of thousands of employees by doing a Workwell integration. Wether you already have a web service or you’re building one from scratch, Workwell provides the necessary tools to make the integration easy and fast.
 
 <br/>
-<p align="center"><img src="docs/images/Phone@2x.png" alt="drawing" width="300px"/></p>
+<p align="center"><img src="docs/images/Home@2x.png" alt="drawing" width="300px"/></p>
 <br/>
 
 ### Technical Concept
