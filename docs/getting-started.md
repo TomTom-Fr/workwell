@@ -38,8 +38,8 @@ To access your local (or online) web app inside the Workwell application, simply
   
   <br/>
   <p align="center">
-  <kbd><img src="images/ios-home-screen.png" alt="drawing" width="300px"/></kbd>
-  <kbd><img src="images/ios-home-screen-prompt.png" alt="drawing" width="300px"/></kbd>
+  <kbd><img src="images/iphone-services-v2.png" alt="drawing" width="300px"/></kbd>
+  <kbd><img src="images/iphone-test-service-v2.png" alt="drawing" width="300px"/></kbd>
   </p>
   <br/>
 
