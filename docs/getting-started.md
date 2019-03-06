@@ -15,8 +15,8 @@ The developer account to login into the app is the following (we are working to 
 
 <br/>
 <p align="center">
-<kbd><img src="images/ios-id-login-screen.png" alt="drawing" width="300px"/></kbd>
-<kbd><img src="images/ios-password-login-screen.png" alt="drawing" width="300px"/></kbd>
+<kbd><img src="images/iphone-login-v2.png" alt="drawing" width="300px"/></kbd>
+<kbd><img src="images/iphone-password-v2.png" alt="drawing" width="300px"/></kbd>
 </p>
 <br/>
 
