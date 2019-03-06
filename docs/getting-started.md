@@ -34,7 +34,7 @@ You must be connected to the Internet to verify the app developer's certificate 
   
 ## <a name="access-web-app"></a>2. Access your local (or online) web app
 
-To access your local (or online) web app inside the Workwell application, simply click on the "Test" (Test Service for developers) item and a popup will then open, prompting you to type the URL that you want to open from inside Workwell. In the example below, I am trying to open my local web app that is running on the 3040 port.
+To access your local (or online) web app inside the Workwell application, simply click on the "See All" button and then on the "Test Service" (Test Service for developers) item and a popup will then open, prompting you to type the URL that you want to open from inside Workwell. In the example below, I am trying to open my local web app that is running on the 3040 port.
   
   <br/>
   <p align="center">
