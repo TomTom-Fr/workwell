@@ -476,7 +476,7 @@ Here is what it looks like in Android and iOS:
 
 <br>
 <p align="center">
-  <kbd><img src="images/hello-world-zachary-android.png" width="300"/></kbd>
-  <kbd><img src="images/hello-world-zachary-ios.png" width="300px"/></kbd>
+  <kbd><img src="images/hello-world-android.png" width="300"/></kbd>
+  <kbd><img src="images/hello-world-ios.png" width="300px"/></kbd>
 </p>
 <br>
