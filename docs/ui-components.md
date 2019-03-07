@@ -653,6 +653,10 @@ This function returns the index associated to the selected value in the picker.
 
 This function returns the value associated to the picker.
 
+### onChange
+
+This function sets the function that will be called every time there is a change in the picker (a different selection).
+
 ### onClick
 
 This function sets the function that will be called once a click is performed on the picker.
