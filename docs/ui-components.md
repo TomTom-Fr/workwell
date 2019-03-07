@@ -53,7 +53,7 @@ document.body.appendChild(
 
 <br/>
   <p align="center">
-  <kbd><img src="images/banner-ios.png" alt="drawing" width="300px"/></kbd>
+  <kbd><img src="images/iphone-banner-component.png" alt="drawing" width="300px"/></kbd>
   <kbd><img src="images/banner-android.png" alt="drawing" width="300px"/></kbd>
   </p>
   <br/>
@@ -174,7 +174,7 @@ document.body.appendChild(
 
 <br/>
   <p align="center">
-  <kbd><img src="images/button-ios.png" alt="drawing" width="300px"/></kbd>
+  <kbd><img src="images/iphone-button-component.png" alt="drawing" width="300px"/></kbd>
   <kbd><img src="images/button-android.png" alt="drawing" width="300px"/></kbd>
   </p>
   <br/>
@@ -197,7 +197,7 @@ document.body.appendChild(
 
 <br/>
   <p align="center">
-  <kbd><img src="images/icon-check-ios.png" alt="drawing" width="300px"/></kbd>
+  <kbd><img src="images/iphone-icon-check-component.png" alt="drawing" width="300px"/></kbd>
   <kbd><img src="images/icon-check-android.png" alt="drawing" width="300px"/></kbd>
   </p>
   <br/>
@@ -254,7 +254,7 @@ document.body.appendChild(
 
 <br/>
   <p align="center">
-  <kbd><img src="images/image-gallery-ios.png" alt="drawing" width="300px"/></kbd>
+  <kbd><img src="images/iphone-imagegallery-component.png" alt="drawing" width="300px"/></kbd>
   <kbd><img src="images/image-gallery-android.png" alt="drawing" width="300px"/></kbd>
   </p>
   <br/>
@@ -362,7 +362,7 @@ document.body.appendChild(
 
 <br/>
   <p align="center">
-  <kbd><img src="images/input-ios.png" alt="drawing" width="300px"/></kbd>
+  <kbd><img src="images/iphone-input-component.png" alt="drawing" width="300px"/></kbd>
   <kbd><img src="images/input-android.png" alt="drawing" width="300px"/></kbd>
   </p>
   <br/>
@@ -497,7 +497,7 @@ document.body.appendChild(
 
 <br/>
   <p align="center">
-  <kbd><img src="images/list-item-ios.png" alt="drawing" width="300px"/></kbd>
+  <kbd><img src="images/iphone-listitem-component.png" alt="drawing" width="300px"/></kbd>
   <kbd><img src="images/list-item-android.png" alt="drawing" width="300px"/></kbd>
   </p>
   <br/>
@@ -526,7 +526,7 @@ document.body.appendChild(
 
 <br/>
   <p align="center">
-  <kbd><img src="images/list-item-chevron-ios.png" alt="drawing" width="300px"/></kbd>
+  <kbd><img src="images/iphone-listitem-chevron-component.png" alt="drawing" width="300px"/></kbd>
   <kbd><img src="images/list-item-chevron-android.png" alt="drawing" width="300px"/></kbd>
   </p>
   <br/>
@@ -626,7 +626,7 @@ document.body.appendChild(
 
 <br/>
   <p align="center">
-  <kbd><img src="images/paging-ios.png" alt="drawing" width="300px"/></kbd>
+  <kbd><img src="images/iphone-paging-component.png" alt="drawing" width="300px"/></kbd>
   <kbd><img src="images/paging-android.png" alt="drawing" width="300px"/></kbd>
   </p>
   <br/>
@@ -722,7 +722,7 @@ document.body.appendChild(
 
 <br/>
   <p align="center">
-  <kbd><img src="images/picker-ios.png" alt="drawing" width="200px"/></kbd>
+  <kbd><img src="images/iphone-picker-component.png" alt="drawing" width="200px"/></kbd>
   <kbd><img src="images/picker-ios-opened.png" alt="drawing" width="200px"/></kbd>
   <kbd><img src="images/picker-android.png" alt="drawing" width="200px"/></kbd>
   <kbd><img src="images/picker-android-opened.png" alt="drawing" width="200px"/></kbd>
@@ -794,7 +794,7 @@ document.body.appendChild(
 
 <br/>
   <p align="center">
-  <kbd><img src="images/slider-ios.png" alt="drawing" width="300px"/></kbd>
+  <kbd><img src="images/iphone-slider-component.png" alt="drawing" width="300px"/></kbd>
   <kbd><img src="images/slider-android.png" alt="drawing" width="300px"/></kbd>
   </p>
   <br/>
@@ -836,7 +836,7 @@ document.body.appendChild(
 
 <br/>
   <p align="center">
-  <kbd><img src="images/switch-ios.png" alt="drawing" width="300px"/></kbd>
+  <kbd><img src="images/iphone-switch-component.png" alt="drawing" width="300px"/></kbd>
   <kbd><img src="images/switch-android.png" alt="drawing" width="300px"/></kbd>
   </p>
   <br/>
@@ -938,7 +938,7 @@ document.body.appendChild(
 
 <br/>
   <p align="center">
-  <kbd><img src="images/text-area-ios.png" alt="drawing" width="300px"/></kbd>
+  <kbd><img src="images/iphone-textarea-component.png" alt="drawing" width="300px"/></kbd>
   <kbd><img src="images/text-area-android.png" alt="drawing" width="300px"/></kbd>
   </p>
   <br/>
