@@ -26,7 +26,7 @@ Before your start diving into the technical details, we wanted to let you know a
 
 Here are the different components inside a service:
 
-<p align="center"><img src="docs/images/service-components.svg" alt="drawing" width="600px"/></p>
+<p align="center"><img src="docs/images/android-classified-ads.png" alt="drawing" width="600px"/></p>
 
 ### Workwell SDK
 
