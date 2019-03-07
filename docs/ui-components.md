@@ -242,6 +242,7 @@ This function toggles the normal mode of the ImageGallery, with all buttons disa
 ```javascript
 document.body.appendChild(
         Workwell.ui.createImageGallery()
+            .setMaxImages(5)
             .addImage("https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/242ce817-97a3-48fe-9acd-b1bf97930b01/09-posterization-opt.jpg")
             .addImage("https://stepupandlive.files.wordpress.com/2014/09/3d-animated-frog-image.jpg")
             .addImage("https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/242ce817-97a3-48fe-9acd-b1bf97930b01/09-posterization-opt.jpg")
