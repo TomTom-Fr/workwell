@@ -101,7 +101,6 @@ $list-item-left-padding-material: 16;
 }
 
 .ww-list-item__center {
-  box-sizing: border-box;
   display: flex;
   -webkit-box-flex: 1;
   -webkit-box-orient: horizontal;
@@ -114,12 +113,13 @@ $list-item-left-padding-material: 16;
   -webkit-box-align: center;
   -ms-flex-align: center;
   justify-content: center;
-  min-height: 44px;
+  min-height: 26px;
   margin-left: 0;
   border-color: #ccc;
   padding: 12px 12px 12px 0;
   line-height: 1.2em;
   min-width: 0;
+  align-self: stretch;
   flex: 1;
   background-color: $list-item-bg-color-ios;
   background-size: 100% 1px;
