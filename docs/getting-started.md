@@ -4,7 +4,7 @@
 
 The Workwell mobile test application is available on HockeyApp. You should download it from the mobile you'll be using for development.
 
-- [IOS](https://rink.hockeyapp.net/apps/3d57f8dcc1e849e583f2abb9c5a774da) (Please uninstall existing Workwell app from your device before launch external dev app installation) 
+- [IOS](https://rink.hockeyapp.net/apps/3d57f8dcc1e849e583f2abb9c5a774da) (Please uninstall existing Workwell app from your device before launching external dev app installation) 
 
 - [Android](https://rink.hockeyapp.net/apps/c1ff82f45af04051902b36cb4e3d8989)
 
